@@ -233,14 +233,20 @@ const CREDITS = {
       size: 1.5,
       align: 'right',
       fill: '#222',
-      content: 'Thank you for playing',
+      content: tn({
+        en: 'Thank you for playing',
+        br: 'Obrigado por jogar',
+      }),
     },
     {
       x: 16.5,
       y: 20,
       size: 1,
       fill: '#222',
-      content: 'A game built with love by teenagers at Hack Club.',
+      content: tn({
+        en: 'A game built with love by teenagers at Hack Club.',
+        br: 'Um jogo feito com amor por adolescentes no Hack Club.',
+      }),
     },
   ],
   goals: [],
