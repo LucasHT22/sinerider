@@ -62,7 +62,10 @@ const CONSTANT_LAKE = {
       size: 0.6,
       align: 'left',
       // fill: '#fff',
-      content: 'Click/arrows to move left+right',
+      content: tn({
+        en: 'Click/arrows to move left+right',
+        br: 'Clique/setas para mover esquerda+direita',
+      }),
     },
   ],
   goals: [],
@@ -116,11 +119,17 @@ const CONSTANT_LAKE = {
   dialogue: [
     {
       speaker: 'Ada',
-      content: "We can't win at this pace.",
+      content: tn({
+        en: "We can't win at this pace.",
+        br: "Não vamos vencer nesse ritmo.",
+      }),
       direction: 'up-up-left',
       distance: 1.2,
       speech: {
-        content: "Let's speed up.",
+        content: tn({
+          en: "Let's speed up.",
+          br: 'Vamos acelerar.',
+        }),
         direction: 'up',
         x: -0.5,
         y: 1.3,
@@ -128,11 +137,17 @@ const CONSTANT_LAKE = {
     },
     {
       speaker: 'Jack',
-      content: "I'm just here for the views",
+      content: tn({
+        en: "I'm just here for the views",
+        br: 'Eu só estou aqui pela vista',
+      }),
       direction: 'up-up-left',
       speech: {
         speaker: 'Jack',
-        content: "Winning isn't everything.",
+        content: tn({
+          en: "Winning isn't everything.",
+          br: 'Vencer não é tudo.',
+        }),
         direction: 'up',
         x: -0.6,
         y: 1.3,
@@ -141,33 +156,48 @@ const CONSTANT_LAKE = {
     },
     {
       speaker: 'Jack',
-      content: 'And the yous <3',
+      content: tn({
+        en: 'And the yous <3',
+        br: 'E você <3',
+      }),
       direction: 'up-up-right',
       gap: 1,
       length: 2,
     },
     {
       speaker: 'Ada',
-      content: 'Sweet but wrong.',
+      content: tn({
+        en: 'Sweet but wrong.',
+        br: 'Doce mas errado.',
+      }),
       direction: 'up-up-left',
       gap: 1,
       length: 2,
     },
     {
       speaker: 'Ada',
-      content: 'Winning is the point of racing.',
+      content: tn({
+        en: 'Winning is the point of racing.',
+        br: 'Vencer é o ponto da corrida.',
+      }),
       direction: 'up-up-right',
       gap: 1,
       // length: 2,
     },
     {
       speaker: 'Jack',
-      content: "I've *always* wanted to see the north rim.",
+      content: tn({
+        en: "I've *always* wanted to see the north rim.",
+        br: 'Eu *sempre* quis ver a borda norte.',
+      }),
       direction: 'up-up-left',
       length: 4,
       gap: 1,
       speech: {
-        content: "But there's so much to see… like, Eternal Canyon.",
+        content: tn({
+          en: "But there's so much to see… like, Eternal Canyon.",
+          br: 'Mas tem muito mais para ver... tipo, Cânion Eterno',
+        }),
         direction: 'up',
         x: -0.6,
         y: 1.3,
@@ -176,16 +206,25 @@ const CONSTANT_LAKE = {
     },
     {
       speaker: 'Ada',
-      content: "It's not on the route, Jack.",
+      content: tn({
+        en: "It's not on the route, Jack.",
+        br: 'Não está na rota, Jack',
+      }),
       direction: 'up-up-left',
       gap: 0,
     },
     {
       speaker: 'Jack',
-      content: 'It would be a crime not to.',
+      content: tn({
+        en: 'It would be a crime not to.',
+        br: 'Seria um crime não passar.',
+      }),
       direction: 'up-up-right',
       speech: {
-        content: 'Can we at least stop for the sunset?',
+        content: tn({
+          en: 'Can we at least stop for the sunset?',
+          br: 'Podemos pelo menos parar para o pôr do sol?',
+        }),
         direction: 'up',
         x: 0.6,
         y: 1.3,
@@ -195,17 +234,26 @@ const CONSTANT_LAKE = {
     {
       speaker: 'Ada',
       color: '#fff',
-      content: 'We can watch while we trek.',
+      content: tn({
+        en: 'We can watch while we trek.',
+        br: 'Podemos assistir enquanto caminhamos.',
+      }),
       direction: 'up-up-left',
     },
     {
       speaker: 'Jack',
       color: '#fff',
-      content: 'We mean no disrespect, great dayball!',
+      content: tn({
+        en: 'We mean no disrespect, great dayball!',
+        br: 'Não queremos desrespeitar, ótimo dia!',
+      }),
       direction: 'up-right',
       length: 4,
       speech: {
-        content: "It's not good to anger the sun, Ada.",
+        content: tn({
+          en: "It's not good to anger the sun, Ada.",
+          br: 'Nã é bom irritar o sol, Ada.',
+        }),
         direction: 'up-up-right',
         color: '#fff',
       },
@@ -213,7 +261,10 @@ const CONSTANT_LAKE = {
     {
       speaker: 'Ada',
       color: '#fff',
-      content: '…',
+      content: tn({
+        en: '…',
+        br: '...',
+      }),
       direction: 'up-up-left',
       length: 2,
       gap: 1,
@@ -221,14 +272,20 @@ const CONSTANT_LAKE = {
     {
       speaker: 'Ada',
       color: '#fff',
-      content: "…you're such a dork.",
+      content: tn({
+        en: "…you're such a dork.",
+        br: '...você é um idiota.',
+      }),
       direction: 'up-up-left',
       gap: 0,
     },
     {
       speaker: 'Ada',
       color: '#fff',
-      content: 'I still love you though.',
+      content: tn({
+        en: 'I still love you though.',
+        br: 'Eu ainda te amo.',
+      }),
       gap: 4,
     },
     // {
